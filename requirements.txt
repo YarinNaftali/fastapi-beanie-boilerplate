@@ -1,0 +1,5 @@
+beanie == 1.21.0
+pymongo == 4.1.1
+pydantic == 2.1.1
+fastapi == 0.101.0
+pytest == 7.4.0
