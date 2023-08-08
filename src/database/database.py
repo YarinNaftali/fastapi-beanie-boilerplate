@@ -1,10 +1,11 @@
 from beanie import init_beanie
 from motor.motor_asyncio import AsyncIOMotorClient
-from core.settings import Settings
+
 from core.models.product import Product
 
-settings = Settings()
+from core.settings import Settings
 
+settings = Settings()
 
 async def init_mongo():
     # Create Motor client

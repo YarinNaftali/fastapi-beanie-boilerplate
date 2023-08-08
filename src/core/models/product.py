@@ -3,11 +3,12 @@ import pymongo
 from core.schemas.category import Category
 from uuid import UUID, uuid4
 from pydantic import Field
+from typing import Optional
 
 class Product(Document):
     id: UUID = Field(default_factory=uuid4)
     name: str
-    description: str
+    description: Optional[str]
     price: Indexed(float, pymongo.DESCENDING)
     category: Category
 
