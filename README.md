@@ -27,7 +27,7 @@ This is a boilerplate for FastAPI and Beanie.
 1. Clone the repository.
 2. Install the requirements.
 3. Add your .env file. (See .env.example)
-4. Run the server. `uvicorn app.main:app --reload`
+4. Run the server: `uvicorn app.main:app --reload`
 
 ## Features
 - [x] FastAPI
