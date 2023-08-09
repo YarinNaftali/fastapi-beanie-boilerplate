@@ -19,7 +19,6 @@
   - [About](#about)
   - [Features](#features)
   - [Requirements](#requirements)
-  - [Installation](#installation)
 
 ## About
 This is a boilerplate for FastAPI and Beanie.
@@ -41,4 +40,3 @@ This is a boilerplate for FastAPI and Beanie.
 ## Requirements
 - Python 3.8+
 
-## Installation
