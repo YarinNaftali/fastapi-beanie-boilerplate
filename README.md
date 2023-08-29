@@ -23,6 +23,18 @@
 ## About
 This is a boilerplate for FastAPI and Beanie.
 
+## Quickstart
+
+```
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+
 ## What is FastAPI
 From the [official documentation](https://fastapi.tiangolo.com/):
 
